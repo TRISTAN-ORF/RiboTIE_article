@@ -1,0 +1,20 @@
+{
+    "h5_path": "../data/GRCh38_v107.h5",
+    "exp_path": "transcript",
+    "y_path": "tis",
+    "contig_path": "contig",
+    "id_path": "id",
+    "seq": false,
+    "ribo": {
+        "riboseq/SRR9113067/5": {},
+        "riboseq/SRR9113068/5": {},
+        "riboseq/SRR9113069/5": {}
+    },
+    "merge": [
+        [
+            0,
+            1,
+            2
+        ]
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "h5_path":"../data/GRCh38_v107.h5",
+    "exp_path":"transcript",
+    "y_path":"tis",
+    "contig_path":"contig",
+    "id_path":"id",
+    "seq":false,
+    "ribo": {
+        "riboseq/SRR592960/5":{},
+        "riboseq/SRR1562539/5":{},
+        "riboseq/SRR1573939/5":{},
+        "riboseq/SRR1610244/5":{},
+        "riboseq/SRR1976443/5":{},
+        "riboseq/SRR2536856/5":{},
+        "riboseq/SRR2873532/5":{},
+        "riboseq/SRR3575904/5":{}
+    },
+    "cond": {
+        "riboseq/SRR592960/5/num_reads" : "lambda x: x > 0",
+        "riboseq/SRR1562539/5/num_reads" : "lambda x: x > 0",
+        "riboseq/SRR1573939/5/num_reads" : "lambda x: x > 0",
+        "riboseq/SRR1610244/5/num_reads" : "lambda x: x > 0",
+        "riboseq/SRR1976443/5/num_reads" : "lambda x: x > 0",
+        "riboseq/SRR2536856/5/num_reads" : "lambda x: x > 0",
+        "riboseq/SRR2873532/5/num_reads" : "lambda x: x > 0",
+        "riboseq/SRR3575904/5/num_reads" : "lambda x: x > 0"
+    }
+}

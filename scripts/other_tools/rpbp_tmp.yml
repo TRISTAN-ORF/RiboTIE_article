@@ -1,0 +1,9 @@
+gtf: genome/Homo_sapiens.GRCh38.107.gtf
+fasta: genome/Homo_sapiens.GRCh38.dna.primary_assembly.fa
+ribosomal_fasta: genome/excl_RNA.fasta
+ribosomal_index: genome/rpbp/excl_rrna/xrnas
+genome_name: GRCh38_v107
+genome_base_path: genome/rpbp/
+star_index: genome/rpbp/
+adapter_file: genome/rpbp/adapters.fasta
+riboseq_samples: 

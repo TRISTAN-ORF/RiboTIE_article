@@ -1,0 +1,12 @@
+#!/bin/bash
+
+transcript_transformer train 'data_dicts/SRR2733100.json' --val 2 14 --test 1 7 13 19 --accelerator gpu --devices 0 --max_epochs 40 --name 'dim_48_dep_8_hed_8_dih_24_loc_5' --dim 48 --depth 8 --heads 8 --dim_head 24 --local_attn_heads 5
+transcript_transformer train 'data_dicts/SRR2733100.json' --val 2 14 --test 1 7 13 19 --accelerator gpu --devices 0 --max_epochs 40 --name 'dim_48_dep_8_hed_8_dih_24_loc_5' --dim 48 --depth 8 --heads 8 --dim_head 24 --local_attn_heads 5
+transcript_transformer train 'data_dicts/SRR2733100.json' --val 2 14 --test 1 7 13 19 --accelerator gpu --devices 0 --max_epochs 40 --name 'dim_48_dep_6_hed_8_dih_16_loc_5' --dim 48 --depth 6 --heads 8 --dim_head 16 --local_attn_heads 5
+transcript_transformer train 'data_dicts/SRR2733100.json' --val 2 14 --test 1 7 13 19 --accelerator gpu --devices 0 --max_epochs 40 --name 'dim_42_dep_8_hed_6_dih_24_loc_4' --dim 42 --depth 8 --heads 6 --dim_head 24 --local_attn_heads 4
+transcript_transformer train 'data_dicts/SRR2733100.json' --val 2 14 --test 1 7 13 19 --accelerator gpu --devices 0 --max_epochs 40 --name 'dim_42_dep_6_hed_6_dih_16_loc_4' --dim 42 --depth 6 --heads 6 --dim_head 16 --local_attn_heads 4
+transcript_transformer train 'data_dicts/SRR2733100.json' --val 2 14 --test 1 7 13 19 --accelerator gpu --devices 0 --max_epochs 40 --name 'dim_50_dep_8_hed_10_dih_20_loc_6' --dim 50 --depth 8 --heads 10 --dim_head 20 --local_attn_heads 6
+transcript_transformer train 'data_dicts/SRR2733100.json' --val 2 14 --test 1 7 13 19 --accelerator gpu --devices 0 --max_epochs 40 --name 'dim_42_dep_6_hed_6_dih_16_loc_4' --dim 42 --depth 6 --heads 6 --dim_head 16 --local_attn_heads 4
+transcript_transformer train 'data_dicts/SRR2733100.json' --val 2 14 --test 1 7 13 19 --accelerator gpu --devices 0 --max_epochs 40 --name 'dim_30_dep_8_hed_6_dih_24_loc_4' --dim 30 --depth 8 --heads 6 --dim_head 24 --local_attn_heads 4
+transcript_transformer train 'data_dicts/SRR2733100.json' --val 2 14 --test 1 7 13 19 --accelerator gpu --devices 0 --max_epochs 40 --name 'dim_30_dep_6_hed_6_dih_16_loc_4' --dim 30 --depth 6 --heads 6 --dim_head 16 --local_attn_heads 4
+transcript_transformer train 'data_dicts/SRR2733100.json' --val 2 14 --test 1 7 13 19 --accelerator gpu --devices 0 --max_epochs 40 --name 'dim_24_dep_5_hed_6_dih_12_loc_4' --dim 24 --depth 6 --heads 6 --dim_head 12 --local_attn_heads 4

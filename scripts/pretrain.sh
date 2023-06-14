@@ -1,0 +1,4 @@
+#!/bin/bash
+
+transcript_transformer train 'data_dicts/pretrain.json' --train 3 5 7 11 13 15 19 21 X --val 1 9 17 --test 2 4 6 8 10 12 14 16 18 20 22 Y --accelerator gpu --devices 0 --max_epochs 40 --name '50perc_f1' --log_dir ../models/pretrain --dim 42 --depth 6 --heads 6 --dim_head 16 --local_attn_heads 4 --max_memory 48000 --patience 6
+transcript_transformer train 'data_dicts/pretrain.json' --train 2 6 8 10 14 16 18 22 Y --val 4 12 20 --test 1 3 5 7 9 11 13 15 17 19 21 X --accelerator gpu --devices 0 --max_epochs 40 --name 'ribo_set_f2' --log_dir ../models/pretrain --dim 42 --depth 6 --heads 6 --dim_head 16 --local_attn_heads 4 --patience 6 --max_memory 48000 --patience 6 --metrics
