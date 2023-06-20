@@ -8,9 +8,9 @@ Supporting repository named after the equally named study
 ## 📋 About <a name="about"></a>
 RIBO-former is created to annotate translation initiation sites on transcripts using ribosome profiling data. This repository holds the scripts, data, models and model outputs used to perform the study and benchmarks as discussed in [the paper]().
 
-To apply the models on custom data or train new models following our approach, we refer to the [RIBO-former tool](https://github.com/jdcla/RIBO_former_tool) GitHub repository.
+To apply the models on custom data or train new models following our approach, we refer to the [RIBO-former tool](https://github.com/jdcla/RIBO_former) GitHub repository.
 
-Data files too large to host on GitHub, specifically those in the `data/`, `models/`, and `outputs/` folders, can be downloaded from [the BioBix servers](http://biobix.be/ribo_former).
+Data files too large to host on GitHub, specifically those in the `data/`, `models/`, and `outputs/` folders, can be downloaded from [Zenodo]().
 
 The repository of TIS Transformer, a similar publication for the delineation of novel coding sequences, where the model relies on transcript sequence data, can be found [here](https://github.com/jdcla/TIS_transformer)
 

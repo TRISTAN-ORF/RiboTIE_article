@@ -1,5 +1,6 @@
 # Model predictions
 
+Model outputs can be downloaded from the b2share [""]
 The model returns predictions for every nucleotide on the transcripts. For each transcript, the array lists the transcript label and model outputs. Only the outputs for the best performing model, and which have been further analyzed for non-canonical ORFs within the paper, are included.
 
 ```python
