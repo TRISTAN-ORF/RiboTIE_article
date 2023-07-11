@@ -6,7 +6,7 @@ Supporting repository named after the equally named study
 </div>
 
 ## 📋 About <a name="about"></a>
-RIBO-former is created to annotate translation initiation sites on transcripts using ribosome profiling data. This repository holds the scripts, data, models and model outputs used to perform the study and benchmarks as discussed in [the paper]().
+RIBO-former is created to annotate translation initiation sites on transcripts using ribosome profiling data. This repository holds the scripts, data, models and model outputs used to perform the study and benchmarks as discussed in [the paper](https://doi.org/10.1101/2023.06.20.545724).
 
 To apply the models on custom data or train new models following our approach, we refer to the [RIBO-former tool](https://github.com/jdcla/RIBO_former) GitHub repository.
 
@@ -21,8 +21,7 @@ The model architecture is based on that of the [Performer](https://arxiv.org/abs
 
 ## 📏 Benchmark <a name="benchmark"></a>
 
-The tool has been compared to similar approaches applying TIS prediction based on ribosome profiling data. More details about the benchmarking approach are listed in the [article](). The scripts are deposited in `scripts/benchmarks`. The two models trained are found under `models/benchmarks`
-
+The tool has been compared to similar approaches applying TIS prediction based on ribosome profiling data. More details about the benchmarking approach are listed in the [article](https://doi.org/10.1101/2023.06.20.545724). The scripts are deposited in `scripts/benchmarks`. The models used for the benchmark are listed under `models/benchmarks/finetune`.
 
 ## 📖 User guide <a name="userguide"></a>
 
