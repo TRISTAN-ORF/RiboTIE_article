@@ -1,7 +1,13 @@
 <div align="center">
 <h1>🧮 RIBO-former (article)</h1>
 
-Supporting repository named after the equally named study
+*Driving coding sequence discovery since 2023*
+
+[![DOI](https://zenodo.org/badge/651113634.svg)](https://zenodo.org/badge/latestdoi/651113634)
+[![GitHub license](https://img.shields.io/github/license/jdcla/transcript_transformer)](https://github.com/jdcla/transcript_transformer/blob/main/LICENSE.md)
+[![GitHub issues](https://img.shields.io/github/issues/jdcla/transcript_transformer)](https://github.com/jdcla/transcript_transformer/issues)
+[![GitHub stars](https://img.shields.io/github/stars/jdcla/transcript_transformer)](https://github.com/jdcla/transcript_transformer/stargazers)
+
 
 </div>
 
@@ -10,7 +16,7 @@ RIBO-former is created to annotate translation initiation sites on transcripts u
 
 To apply the models on custom data or train new models following our approach, we refer to the [RIBO-former tool](https://github.com/jdcla/RIBO_former) GitHub repository.
 
-Data files too large to host on GitHub, specifically those in the `data/`, `models/`, and `outputs/` folders, can be downloaded from [Zenodo]().
+Data files too large to host on GitHub, specifically those in the `data/`, `models/`, and `outputs/` folders, can be downloaded from [Zenodo](https://zenodo.org/record/8059446).
 
 The repository of TIS Transformer, a similar publication for the delineation of novel coding sequences, where the model relies on transcript sequence data, can be found [here](https://github.com/jdcla/TIS_transformer)
 
