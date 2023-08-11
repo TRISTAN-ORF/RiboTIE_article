@@ -1,4 +1,4 @@
 #!/bin/bash
 
-transcript_transformer train 'data_dicts/merged/SRR844.json' --transfer_checkpoint ../models/pretrain/50perc_f1.ckpt  --train 2 6 8 10 14 16 18 22 Y --val 4 12 20 --test 1 3 5 7 9 11 13 15 17 19 21 X --accelerator gpu --devices 0 --max_epochs 40 --name 'SRR844_f2' --log_dir ../models/merged --max_memory 55000 --patience 6
-transcript_transformer train 'data_dicts/merged/SRR911.json' --transfer_checkpoint ../models/pretrain/50perc_f1.ckpt  --train 2 6 8 10 14 16 18 22 Y --val 4 12 20 --test 1 3 5 7 9 11 13 15 17 19 21 X --accelerator gpu --devices 0 --max_epochs 40 --name 'SRR911_f2' --log_dir ../models/merged --max_memory 55000 --patience 6
+transcript_transformer train 'data_dicts/merged/SRR844.json' --transfer_checkpoint ../models/pretrain/50perc_f1.ckpt  --train 2 6 8 10 14 16 18 22 Y --val 4 12 20 --test 1 3 5 7 9 11 13 15 17 19 21 X --accelerator gpu --devices 1 --max_epochs 40 --name 'SRR844_f2' --log_dir ../models/merged --max_memory 55000 --patience 6
+transcript_transformer train 'data_dicts/merged/SRR911.json' --transfer_checkpoint ../models/pretrain/50perc_f1.ckpt  --train 2 6 8 10 14 16 18 22 Y --val 4 12 20 --test 1 3 5 7 9 11 13 15 17 19 21 X --accelerator gpu --devices 1 --max_epochs 40 --name 'SRR911_f2' --log_dir ../models/merged --max_memory 55000 --patience 6
