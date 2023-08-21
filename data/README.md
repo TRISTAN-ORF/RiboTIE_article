@@ -1,3 +1,3 @@
 # data
 
-download data files from [here](www.biobix.be/RIBO_former).
+download data files from [here](https://zenodo.org/record/8059764).
