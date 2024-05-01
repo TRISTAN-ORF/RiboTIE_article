@@ -24,6 +24,7 @@ Annotations are performed by a machine learning model following a methodology si
 The model architecture is based on that of the [Performer](https://arxiv.org/abs/2009.14794), which allows the use of longer input sequences due to the memory efficiency of the attention-based calculations.
 
 ## 📏 Benchmark <a name="benchmark"></a>
+**NOTE that all scripts were run on an old version (v0.3.3) of the `transcript-transformer` package. It is always recommended to use the newest version**
 
 The tool has been compared to similar approaches applying TIS prediction based on ribosome profiling data. More details about the benchmarking approach are listed in the [article](https://doi.org/10.1101/2023.06.20.545724). The scripts are deposited in `scripts/benchmarks`. The models used for the benchmark are listed under `models/benchmarks/finetune`.
 
