@@ -1,5 +1,5 @@
 <div align="center">
-<h1>🧮 RIBO-former (article)</h1>
+<h1>🧮 RiboTIE (article)</h1>
 
 *Driving coding sequence discovery since 2023*
 
@@ -10,9 +10,9 @@
 </div>
 
 ## 📋 About <a name="about"></a>
-RIBO-former is created to annotate translation initiation sites on transcripts using ribosome profiling data. This repository holds the scripts, data, models and model outputs used to perform the study and benchmarks as discussed in [the paper](https://doi.org/10.1101/2023.06.20.545724).
+RiboTIE is created to annotate translation initiation sites on transcripts using ribosome profiling data. This repository holds the scripts, data, models and model outputs used to perform the study and benchmarks as discussed in [the paper](https://doi.org/10.1101/2023.06.20.545724).
 
-To apply the models on custom data or train new models following our approach, we refer to the [RIBO-former tool](https://github.com/jdcla/RIBO_former) GitHub repository.
+To apply the models on custom data or train new models following our approach, we refer to the [RiboTIE tool](https://github.com/jdcla/RIBO_former) GitHub repository.
 
 Data files too large to host on GitHub, specifically those in the `data/`, `models/`, and `outputs/` folders, can be downloaded from [Zenodo](https://zenodo.org/record/8059764).
 
@@ -30,7 +30,7 @@ The tool has been compared to similar approaches applying TIS prediction based o
 
 ## 📖 User guide <a name="userguide"></a>
 
-For now, RIBO-former can be run following the steps described on the [RIBO-former tool](https://github.com/jdcla/RIBO_former) GitHub repository. Future work will focus on simplifying deployment and data pre-processing for RIBO_former.
+For now, RiboTIE can be run following the steps described on the [RiboTIE tool](https://github.com/jdcla/RIBO_former) GitHub repository. Future work will focus on simplifying deployment and data pre-processing for RIBO_former.
 
 ## 🖊️ Citation <a name="citation"></a>
     
